@@ -4,34 +4,32 @@ import React from 'react';
 import { Container, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 
 const NavbarSec = () => {
-    return (
-      
-//       <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'white',color:'black'}}>
-//   <Container>
-
-//   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-//   <Navbar.Collapse id="responsive-navbar-nav">
-//     <Nav className="me-auto" style={{marginLeft:'25%'}}>
-//       <Nav.Link href="#features">Home</Nav.Link>
-//       <NavDropdown title="Practice" id="collasible-nav-dropdown">
-//         <NavDropdown.Item href="#action/3.1">Problems</NavDropdown.Item>
-//         <NavDropdown.Divider />
-//         <NavDropdown.Item href="#action/3.2">Contests</NavDropdown.Item>
-//       </NavDropdown>
-//       <Nav.Link href="#pricing">Discuss</Nav.Link>
-//       <Nav.Link href="#pricing">Visualiser</Nav.Link>
-//       <NavDropdown title="Learn" id="collasible-nav-dropdown">
-//         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-//         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-//         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-//         <NavDropdown.Divider />
-//         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-//       </NavDropdown>
-//     </Nav>
-//   </Navbar.Collapse>
-//   </Container>
-// </Navbar>
-{/* <div>
+    return (   
+            //       <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'white',color:'black'}}>
+            //   <Container>
+            //   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            //   <Navbar.Collapse id="responsive-navbar-nav">
+            //     <Nav className="me-auto" style={{marginLeft:'25%'}}>
+            //       <Nav.Link href="#features">Home</Nav.Link>
+            //       <NavDropdown title="Practice" id="collasible-nav-dropdown">
+            //         <NavDropdown.Item href="#action/3.1">Problems</NavDropdown.Item>
+            //         <NavDropdown.Divider />
+            //         <NavDropdown.Item href="#action/3.2">Contests</NavDropdown.Item>
+            //       </NavDropdown>
+            //       <Nav.Link href="#pricing">Discuss</Nav.Link>
+            //       <Nav.Link href="#pricing">Visualiser</Nav.Link>
+            //       <NavDropdown title="Learn" id="collasible-nav-dropdown">
+            //         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            //         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+            //         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            //         <NavDropdown.Divider />
+            //         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            //       </NavDropdown>
+            //     </Nav>
+            //   </Navbar.Collapse>
+            //   </Container> 
+            // </Navbar>
+ <div>
 
 <Navbar bg="dark" variant="dark" >
   <Container>
@@ -75,7 +73,7 @@ const NavbarSec = () => {
   </Container>
 </Navbar>
 
-</div> */}
+</div> 
     );
 };
 
