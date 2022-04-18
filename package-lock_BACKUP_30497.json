@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "lockfileVersion": 1,
   "requires": true,
+<<<<<<< HEAD
   "packages": {
     "": {
       "name": "vcode",
@@ -16171,6 +16172,8 @@
       }
     }
   },
+=======
+>>>>>>> 0f475338d5d2657e74ec9628a9461bb1b15034cb
   "dependencies": {
     "@ampproject/remapping": {
       "version": "2.1.2",

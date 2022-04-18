@@ -4,8 +4,6 @@ async function getapi(url){
     var data = await response.json();    
     return data;
 }
-
-
 export const getProblems = async (tags,rating) =>{
     // try{
     //     const url=`http://codeforces.com/api/problemset.problems?tags=${tags}`;
