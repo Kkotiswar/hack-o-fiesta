@@ -4,7 +4,7 @@ import  './Navbar.css';
     import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 
-const NavbarTop = () => {
+const NavbarTop = (props) => {
     return (
       
       <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'white',color:'black'}}>
@@ -13,7 +13,7 @@ const NavbarTop = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
     <Nav style={{marginLeft:'1000px'}}>
-        <Button variant="outline-dark" style={{paddingLeft:'30px',paddingRight:'30px'}}>Login / Signup </Button>
+        <Button variant="outline-dark" style={{paddingLeft:'30px',paddingRight:'30px'}}  onClick={props.handleBtnClick}>Login / Signup </Button>
     </Nav>
   </Container>
 </Navbar>
