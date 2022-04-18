@@ -3,7 +3,7 @@ import React from 'react';
     import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 
-const NavbarSec = () => {
+const NavbarSec = (props) => {
     return (
       
 //       <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'white',color:'black'}}>
@@ -31,12 +31,12 @@ const NavbarSec = () => {
 //   </Navbar.Collapse>
 //   </Container>
 // </Navbar>
-{/* <div>
+ <div>
 
 <Navbar bg="dark" variant="dark" >
   <Container>
     <Navbar.Brand href="#home">vCode</Navbar.Brand>
-    <Button  variant="outline-secondary">New User / Login</Button>
+    <Button  variant="outline-secondary" onClick={props.handleBtnClick}>New User / Login</Button>
   </Container>
 </Navbar>
 
@@ -75,7 +75,7 @@ const NavbarSec = () => {
   </Container>
 </Navbar>
 
-</div> */}
+</div>
     );
 };
 
